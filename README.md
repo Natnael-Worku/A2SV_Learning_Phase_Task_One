@@ -13,7 +13,7 @@ Responsive Design: The app is designed to be mobile-friendly and works well on v
 
 Image of the page
 
-![image](https://github.com/user-attachments/assets/0cb964b6-f055-4c40-a170-2b7ae8a656c8)
+![alt text](image.png)
 
 
 
