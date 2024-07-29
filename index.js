@@ -19,9 +19,11 @@ const display_tasks = () => {
         const task_item = document.createElement('div');
         task_item.classList.add('task_item');
         task_item.innerHTML = `
+            <div class = " list-item">
             <div class="name_of_task">${item}</div>
             <button class="edit btn" data-index="${index}"> edit</button>
             <button class="delete btn" data-index="${index}">delete</button>
+            </div>
         `;
         tasks_display.appendChild(task_item);
 
