@@ -40,6 +40,10 @@ const display_tasks = () => {
   edit_buttons.forEach((item, index, array) => {
     item.addEventListener("click", (Event) => {
       const input_field = document.querySelector("input");
+      if (input_field.value){
+        alert("can not edit while input field has content")
+        return
+      }
       const index = Number(Event.target.dataset.index);
       input_field.value = tasks[index];
       tasks.splice(index, 1);
